@@ -6,6 +6,7 @@ A spinning stick of butter the easy way
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>360 ButterStick</title>
 
 <style>
@@ -18,19 +19,14 @@ body {
 }
 
 img {
- inline-size: 50%;
+ inline-size: 100%;
 }
 
 .butterstick-container {
- display: flex;
- align-items: center;
- justify-content: center;
- width: 30%;
- height: auto;
- padding: 5px;
+ width: 25%;
  animation: spinning-butter 3s linear infinite;
 }
-
+ 
 @keyframes spinning-butter {
  0% {
  transform: rotateY(0deg);
